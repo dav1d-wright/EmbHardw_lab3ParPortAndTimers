@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Oct 10 11:09:43 2017
+Quartus Prime Version : 17.0.2 Build 602 07/19/2017 SJ Lite Edition
+Revision Name : lab3ParPortAndTimers
+Top-level Entity Name : topLevelEntity
+Family : Cyclone IV E
+Device : EP4CE30F23C7
+Timing Models : Final
+Total logic elements : 6,026 / 28,848 ( 21 % )
+    Total combinational functions : 5,423 / 28,848 ( 19 % )
+    Dedicated logic registers : 3,622 / 28,848 ( 13 % )
+Total registers : 3690
+Total pins : 48 / 329 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 130,624 / 608,256 ( 21 % )
+Embedded Multiplier 9-bit elements : 6 / 132 ( 5 % )
+Total PLLs : 1 / 4 ( 25 % )

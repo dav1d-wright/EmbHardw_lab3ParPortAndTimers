@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity parPort is
+    port
+    {
+        Clk_CI:         in std_logic;
+        Reset_BRI:      in std_logic;
+        address_DI:     in std_logic_vector (2 downto 0);
+        Write_SI:       in std_logic;
+        WriteData_S
+    };
+end entity parPort;
+
+architecture 

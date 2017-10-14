@@ -1,0 +1,102 @@
+13:36:00 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]
+13:36:05 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]
+13:37:22 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]
+13:37:24 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers_BSP ****
+make all 
+[BSP build complete]
+13:39:08 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab3ParPortAndTimers_bsp//HAL/inc -I../lab3ParPortAndTimers_bsp/ -I../lab3ParPortAndTimers_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+In file included from main.c:11:0:
+main.c: In function 'main':
+../lab3ParPortAndTimers_bsp/system.h:351:36: warning: passing argument 1 of 'perf_print_formatted_report' makes pointer from integer without a cast [-Wint-conversion]
+ #define PERFORMANCE_COUNTER_0_BASE 0x2003000
+                                    ^
+main.c:80:30: note: in expansion of macro 'PERFORMANCE_COUNTER_0_BASE'
+  perf_print_formatted_report(PERFORMANCE_COUNTER_0_BASE, alt_get_cpu_freq(),
+                              ^
+In file included from main.c:16:0:
+../lab3ParPortAndTimers_bsp//drivers/inc/altera_avalon_performance_counter.h:229:5: note: expected 'void *' but argument is of type 'int'
+ int perf_print_formatted_report (void* perf_base, 
+     ^
+main.c:34:18: warning: variable 'statusISR' set but not used [-Wunused-but-set-variable]
+  alt_irq_context statusISR;
+                  ^
+Info: Linking lab3ParPortAndTimers.elf
+nios2-elf-g++  -T'../lab3ParPortAndTimers_bsp//linker.x' -msys-crt0='../lab3ParPortAndTimers_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab3ParPortAndTimers_bsp/   -Wl,-Map=lab3ParPortAndTimers.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o lab3ParPortAndTimers.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab3ParPortAndTimers.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x20030c0 --timestamp 1507626423 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name systemFile --quartus_project_dir "D:/syncplicity/z003nc3v/Documents/MSE/1Sem_HS17_18/TSM_EmbHardw/w3/exercises/lab3ParPortAndTimers" --jdi ../..//output_files/lab3ParPortAndTimers.jdi --sopcinfo D:/syncplicity/z003nc3v/Documents/MSE/1Sem_HS17_18/TSM_EmbHardw/w3/exercises/lab3ParPortAndTimers/software/lab3ParPortAndTimers_bsp/../../systemFile.sopcinfo
+Info: (lab3ParPortAndTimers.elf) 71 KBytes program size (code + initialized data).
+Info:                            16305 KBytes free for stack + heap.
+Info: Creating lab3ParPortAndTimers.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab3ParPortAndTimers.elf >lab3ParPortAndTimers.objdump
+[lab3ParPortAndTimers build complete]
+13:39:13 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers_BSP ****
+make all 
+[BSP build complete]
+13:39:22 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]
+13:42:22 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab3ParPortAndTimers_bsp//HAL/inc -I../lab3ParPortAndTimers_bsp/ -I../lab3ParPortAndTimers_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+In file included from main.c:11:0:
+main.c: In function 'main':
+../lab3ParPortAndTimers_bsp/system.h:351:36: warning: passing argument 1 of 'perf_print_formatted_report' makes pointer from integer without a cast [-Wint-conversion]
+ #define PERFORMANCE_COUNTER_0_BASE 0x2003000
+                                    ^
+main.c:76:30: note: in expansion of macro 'PERFORMANCE_COUNTER_0_BASE'
+  perf_print_formatted_report(PERFORMANCE_COUNTER_0_BASE, alt_get_cpu_freq(),
+                              ^
+In file included from main.c:16:0:
+../lab3ParPortAndTimers_bsp//drivers/inc/altera_avalon_performance_counter.h:229:5: note: expected 'void *' but argument is of type 'int'
+ int perf_print_formatted_report (void* perf_base, 
+     ^
+Info: Linking lab3ParPortAndTimers.elf
+nios2-elf-g++  -T'../lab3ParPortAndTimers_bsp//linker.x' -msys-crt0='../lab3ParPortAndTimers_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab3ParPortAndTimers_bsp/   -Wl,-Map=lab3ParPortAndTimers.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o lab3ParPortAndTimers.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert lab3ParPortAndTimers.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x20030c0 --timestamp 1507626423 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name systemFile --quartus_project_dir "D:/syncplicity/z003nc3v/Documents/MSE/1Sem_HS17_18/TSM_EmbHardw/w3/exercises/lab3ParPortAndTimers" --jdi ../..//output_files/lab3ParPortAndTimers.jdi --sopcinfo D:/syncplicity/z003nc3v/Documents/MSE/1Sem_HS17_18/TSM_EmbHardw/w3/exercises/lab3ParPortAndTimers/software/lab3ParPortAndTimers_bsp/../../systemFile.sopcinfo
+Info: (lab3ParPortAndTimers.elf) 71 KBytes program size (code + initialized data).
+Info:                            16305 KBytes free for stack + heap.
+Info: Creating lab3ParPortAndTimers.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab3ParPortAndTimers.elf >lab3ParPortAndTimers.objdump
+[lab3ParPortAndTimers build complete]
+13:42:28 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers_BSP ****
+make all 
+[BSP build complete]
+13:42:33 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]
+13:46:25 **** Incremental Build of configuration Nios II for project lab3ParPortAndTimers ****
+make all 
+Info: Building ../lab3ParPortAndTimers_bsp/
+C:/intelFPGA_lite/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab3ParPortAndTimers_bsp/
+[BSP build complete]
+[lab3ParPortAndTimers build complete]

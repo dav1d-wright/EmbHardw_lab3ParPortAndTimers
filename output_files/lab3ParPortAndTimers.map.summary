@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 10 11:08:58 2017
+Quartus Prime Version : 17.0.2 Build 602 07/19/2017 SJ Lite Edition
+Revision Name : lab3ParPortAndTimers
+Top-level Entity Name : topLevelEntity
+Family : Cyclone IV E
+Total logic elements : 6,410
+    Total combinational functions : 5,414
+    Dedicated logic registers : 3,730
+Total registers : 3730
+Total pins : 48
+Total virtual pins : 0
+Total memory bits : 130,624
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 1
